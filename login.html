@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Login</title>
+</head>
+<body>
+  <main>
+    <div id="login-bg" class="container-fluid d-flex p-4 m-0 min-vh-100">
+      <div class="row d-flex flex-column m-auto bg-white rounded-2 g-3 p-4">
+        <div class="col mx-auto d-flex flex-column text-center align-items-center">
+          <img src="./assets/logo smk.png" alt="" class="rounded mx-auto d-block ratio-1x1" style="max-width: 8rem;">
+          <div class="fs-5">Aplikasi Pendaftaran Peserta Didik Baru</div>
+          <div class="h5">SMK Penerbangan Bina Dhirgantara Karanganyar</div>
+        </div>
+        <div class="col">
+          <form class="d-flex flex-column gap-3">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <button type="submit" class="btn btn-primary">Login</button>
+              <hr>
+              <div class="text-center text-secondary">Belum punya akun? <a href="registrasi.html">Daftar</a></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

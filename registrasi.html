@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Registrasi</title>
+</head>
+<body>
+  <main>
+    <div id="login-bg" class="container-fluid d-flex p-4 m-0 min-vh-100">
+      <div class=" m-auto bg-white rounded-2">
+        <div class="row d-flex flex-column g-3 p-4">
+          <div class="col">
+            <h4 class="text-center mb-4">Pendaftaran Peserta Didik Baru</h4>
+          </div>
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" aria-describedby="emailHelp">
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="tmpt_lahir" class="form-label">Tempat Lahir</label>
+                    <input type="text" class="form-control" id="tmpt_lahir">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="tgl_lahir" class="form-label">Tanggal Lahir</label>
+                    <input type="date" class="form-control" id="tgl_lahir">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="tmpt_lahir" class="form-label">Jenis Kelamin</label>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Laki-laki
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Perempuan
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="tgl_lahir" class="form-label">Agama</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Pilih Agama</option>
+                      <option value="1">Islam</option>
+                      <option value="2">Kristen</option>
+                      <option value="3">Katolik</option>
+                      <option value="3">Hindu</option>
+                      <option value="3">Budha</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="alamat" class="form-label">Alamat</label>
+                <textarea class="form-control" id="alamat"></textarea>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="tel" class="form-label">Telepon</label>
+                    <input type="tel" class="form-control" id="tel">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="re_password" class="form-label">Ulangi Password</label>
+                    <input type="password" class="form-control" id="re_password">
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column gap-2">
+                <button type="submit" class="btn btn-primary">Daftar</button>
+                <hr>
+                <div class="text-center text-secondary">Sudah punya akun? <a href="login.html">Login</a></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
